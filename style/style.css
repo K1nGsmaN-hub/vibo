@@ -1,1 +1,137 @@
 @import "reset.css";
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+header{
+    background: url(../image/header/bg.png) no-repeat;
+    background-size: cover;
+    height: 1000px;
+    z-index: 0;
+}
+header .menu{
+    min-height: 136px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+header .menu .menu__links{
+    width: 30%;
+}
+header .menu .menu__links ul{
+    display: flex;
+    justify-content: space-around;
+}
+header .menu .menu__links ul a{
+    text-decoration: none;
+    color: #fff;
+}
+header .hero{
+    text-align: center;
+    color: #fff;
+}
+header .hero .hero__text .title{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.3333333em;
+}
+header .hero .hero__text .subtitle{
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+header .hero .hero__buttons a:last-child{
+    margin-left: 25px;
+}
+header .hero .button_item{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 15px 35px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    margin-bottom: 70px;
+}
+header .hero .button_item:hover{
+    background-color: #fff;
+    color: #000;
+}
+header .hero .hero__phone{
+    position: relative;
+    z-index: 0;
+}
+section.about{
+    background: url(../image/about/bg.png) no-repeat;
+    background-size: cover;
+    /* height: 1246px; */
+    position: relative;
+    top: -220px;
+}
+section.about .content{
+    padding-top: 440px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 247px;
+}
+section.about .content .content__phone{
+    text-align: center;
+    width: 33.33333%;
+}
+section.about .content .content__info{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 57.6923%;
+}
+section.about .content .content__info .info__item{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 40.148148148%;
+    box-shadow: 0 6px 9px rgba(35, 39, 47, 0.1);
+}
+section.about .content .content__info .info__item:nth-child(1){
+    left: 44px;
+    top: -176px;
+}
+section.about .content .content__info .info__item:nth-child(2){
+    right: 0;
+    top: -80px;
+}
+section.about .content .content__info .info__item:nth-child(3){
+    left: 0;
+    bottom: 0;
+}
+section.about .content .content__info .info__item:nth-child(4){
+    bottom: -104px;
+    right: 44px;
+}
+section.about .content .content__info .info__item .item__image{
+    margin-bottom: 35px;
+    padding-top: 58px;
+}
+section.about .content .content__info .info__item .item_title{
+    font-size: 14px;
+    font-weight: 600;
+    color: #233148;
+    margin-bottom: 28px;
+}
+section.about .content .content__info .info__item .item_description{
+    font-size: 14px;
+    font-weight: 400;
+    color: #6a6d89;
+    line-height: 1.9457em;
+    padding: 0 30px 40px;
+}
