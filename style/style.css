@@ -78,10 +78,10 @@ section.about{
     top: -220px;
 }
 section.about .content{
-    padding-top: 440px;
+    padding-top: 480px;
     display: flex;
     justify-content: space-around;
-    padding-bottom: 247px;
+    padding-bottom: 170px;
 }
 section.about .content .content__phone{
     text-align: center;
@@ -134,4 +134,79 @@ section.about .content .content__info .info__item .item_description{
     color: #6a6d89;
     line-height: 1.9457em;
     padding: 0 30px 40px;
+}
+section.info .content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+section.info .content .content__text{
+    width: 40.17094%;
+    text-align: right;
+}
+section.info .content .content__text .text_title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #233148;
+    margin-bottom: 50px;
+}
+section.info .content .content__text .text_description{
+    font-size: 14px;
+    font-weight: 400;
+    color: #6a6d89;
+    margin-bottom: 30px;
+}
+section.info .content .content__text .text_button{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #33d2fd;
+    border-radius: 10px;
+    transition: all .3s linear;
+    padding: 20px 45px;
+}
+section.info .content .content__text .text_button:hover{
+    color: #fff;
+    background-color: #33d2fd;
+}
+section.info .content .content__info-panel{
+    width: 46.58119%;
+}
+section.info .content .content__info-panel .panel__item{
+    width: 100%;
+    display: flex;
+    box-shadow: 0 6px 9px rgba(35, 39, 47, 0.1);
+    background-color: transparent;
+    transition: all .3s linear;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+section.info .content .content__info-panel .panel__item.active{
+    background-color: #33d2fd;
+}
+section.info .content .content__info-panel .panel__item .item__icon{
+    font-size: 30px;
+    color: #2c3233;
+    margin: 25px 20px 25px 32px;
+}
+section.info .content .content__info-panel .panel__item .item__text{
+    margin: 32px 0;
+}
+section.info .content .content__info-panel .panel__item .item__text .text_title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #233148;
+}
+section.info .content .content__info-panel .panel__item.active .item__text .text_title{
+    margin-bottom: 22px;
+}
+section.info .content .content__info-panel .panel__item .item__text .text_description{
+    display: none;
+    color: #fff;
+}
+section.info .content .content__info-panel .panel__item.active .item__text .text_description{
+    display: block;
 }
