@@ -11,7 +11,7 @@
 * index.html file
 
 # 
-## May23 - VIGO v0.1
+## May23 - VIBO v0.1
 
 ### Loaded:
 * image folder
@@ -26,7 +26,7 @@
 * section "about" - just info about app
 
 # 
-## May24 - VIGO v0.2
+## May24 - VIBO v0.2
 
 ### Loaded:
 * main.js into script folder
@@ -39,3 +39,15 @@
 ### Added itno html/css:
 * section "info" with info about app
 * main.js with open panel script
+
+# 
+## May25 - VIBO v0.3
+
+### Update:
+* style.css file into style folder
+* index.html
+* README.md
+
+### Added itno html/css:
+* section "what-need" with info about what you need for using app
+
