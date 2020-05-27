@@ -135,28 +135,28 @@ section.about .content .content__info .info__item .item_description{
     line-height: 1.9457em;
     padding: 0 30px 40px;
 }
-section.info .content{
+section.marketing .content{
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
-section.info .content .content__text{
+section.marketing .content .content__text{
     width: 40.17094%;
     text-align: right;
 }
-section.info .content .content__text .text_title{
+section.marketing .content .content__text .text_title{
     font-size: 30px;
     font-weight: 700;
     color: #233148;
     margin-bottom: 50px;
 }
-section.info .content .content__text .text_description{
+section.marketing .content .content__text .text_description{
     font-size: 14px;
     font-weight: 400;
     color: #6a6d89;
     margin-bottom: 30px;
 }
-section.info .content .content__text .text_button{
+section.marketing .content .content__text .text_button{
     display: inline-block;
     font-size: 15px;
     font-weight: 600;
@@ -168,14 +168,14 @@ section.info .content .content__text .text_button{
     transition: all .3s linear;
     padding: 20px 45px;
 }
-section.info .content .content__text .text_button:hover{
+section.marketing .content .content__text .text_button:hover{
     color: #fff;
     background-color: #33d2fd;
 }
-section.info .content .content__info-panel{
+section.marketing .content .content__info-panel{
     width: 46.58119%;
 }
-section.info .content .content__info-panel .panel__item{
+section.marketing .content .content__info-panel .panel__item{
     width: 100%;
     display: flex;
     box-shadow: 0 6px 9px rgba(35, 39, 47, 0.1);
@@ -184,30 +184,30 @@ section.info .content .content__info-panel .panel__item{
     margin-bottom: 20px;
     cursor: pointer;
 }
-section.info .content .content__info-panel .panel__item.active{
+section.marketing .content .content__info-panel .panel__item.active{
     background-color: #33d2fd;
 }
-section.info .content .content__info-panel .panel__item .item__icon{
+section.marketing .content .content__info-panel .panel__item .item__icon{
     font-size: 30px;
     color: #2c3233;
     margin: 25px 20px 25px 32px;
 }
-section.info .content .content__info-panel .panel__item .item__text{
+section.marketing .content .content__info-panel .panel__item .item__text{
     margin: 32px 0;
 }
-section.info .content .content__info-panel .panel__item .item__text .text_title {
+section.marketing .content .content__info-panel .panel__item .item__text .text_title {
     font-size: 15px;
     font-weight: 600;
     color: #233148;
 }
-section.info .content .content__info-panel .panel__item.active .item__text .text_title{
+section.marketing .content .content__info-panel .panel__item.active .item__text .text_title{
     margin-bottom: 22px;
 }
-section.info .content .content__info-panel .panel__item .item__text .text_description{
+section.marketing .content .content__info-panel .panel__item .item__text .text_description{
     display: none;
     color: #fff;
 }
-section.info .content .content__info-panel .panel__item.active .item__text .text_description{
+section.marketing .content .content__info-panel .panel__item.active .item__text .text_description{
     display: block;
 }
 section.what-need .content{
@@ -250,4 +250,145 @@ section.what-need .content .content__info .info_description{
     font-weight: 400;
     line-height: 1.9457em;
     color: #6a6d89;
+}
+section.app-download{
+    background: url(../image/app-download/bg.png) no-repeat;
+    background-size: cover;
+}
+section.app-download .content{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 140px;
+}
+section.app-download .content .content__image{
+    display: flex;
+    justify-content: center;
+    width: 48.7179487%;
+    padding: 111px 0 95px;
+}
+section.app-download .content .content__image .image_phone {
+    display: block;
+}
+section.app-download .content .content__app-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 48.7179487%;
+}
+section.app-download .content .content__app-info .info__text{
+    width: 78.9473684%;
+    margin-bottom: 30px;
+}
+section.app-download .content .content__app-info .info__text .text_title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #233148;
+    margin-bottom: 40px;
+}
+section.app-download .content .content__app-info .info__text .text_description{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.945em;
+}
+section.app-download .content .content__app-info .app__download-buttons img:first-child{
+    margin-right: 35px;
+}
+section.app-download .content .content_get-button{
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+    padding: 30px 85px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 11px 29px rgba(255, 7, 95, 0.2);
+    background-image: linear-gradient(to bottom, #ff7c6e 1%, #f5317f 99%);
+}
+section.info .content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+section.info .content .content__links{
+    margin: 0 auto;
+    width: 61.53846153846154%;
+    display: flex;
+    justify-content: space-between;
+}
+section.info .content .content__links .link__item{
+
+}
+section.info .content .content__links .link__item .item_title{
+    font-size: 15px;
+    font-weight: 600;
+    color: #233148;
+    margin-bottom: 30px;
+}
+section.info .content .content__links .link__item ul li{
+    margin-bottom: 18px;
+}
+section.info .content .content__links .link__item ul li:last-child{
+    margin-bottom: 0;
+}
+section.info .content .content__links .link__item ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #6a6d89;
+}
+section.info .content__newsletter{
+    text-align: center;
+    width: 44.44444444444444%;
+    margin: 100px auto 108px;
+}
+section.info .content__newsletter .title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #233148;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+}
+section.info .content__newsletter .subtitle{
+    font-size: 14px;
+    font-weight: 400;
+    color: #6a6d89;
+    margin-bottom: 72px;
+}
+section.info .content__newsletter .button{
+    padding: 20px 35px;
+    font-size: 15px;
+    background-color: #33d2fd;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #233148;
+}
+footer{
+    background-color: #233148;
+}
+footer .content{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .content .content__copyright{
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+footer .content .content__links a{
+    font-size: 25px;
+    margin-right: 45px;
+    text-decoration: none;
+    color: #fff;
+}
+footer .content .content__links a:last-child{
+    margin-right: 0;
 }

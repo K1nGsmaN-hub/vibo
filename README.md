@@ -37,7 +37,7 @@
 * README.md
 
 ### Added itno html/css:
-* section "info" with info about app
+* section "marketing" with info about app
 * main.js with open panel script
 
 # 
@@ -50,4 +50,17 @@
 
 ### Added itno html/css:
 * section "what-need" with info about what you need for using app
+
+# 
+## May27 - VIBO v0.4 - Complete PC version
+
+### Update:
+* style.css file into style folder
+* index.html
+* README.md
+
+### Added itno html/css:
+* section "app-download" with info and download buttons
+* section "info" with info links and subscribe to newsletter button
+* footer with copyright info and social links
 
